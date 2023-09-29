@@ -5,9 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sales | Salmon Cookies</title>
     <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <img class="logo" src="./images/salmon.png" alt="Logo" />
+    <h1>Salmon Cookie Sales</h1>
+
+    <form action="" id="newShop">
+      <fieldset>
+        <legend>Cookie Sales Data</legend>
+        <label for="Location">Location</label>
+        <input name="Location" type="text" id="location" />
+        <label for="minCust">Minimum customers per hour</label>
+        <input name="minCust" type="number" step="any" id="minCust" />
+        <label for="maxCust">Maximum customers per hour</label>
+        <input name="maxCust" type="number" step="any" id="maxCust" />
+        <label for="average">Average cookies per customer</label>
+        <input name="average" type="number" step="any" id="average" />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+    <div id="sub"></div>
     <table id="salesData"></table>
   </body>
 </html>

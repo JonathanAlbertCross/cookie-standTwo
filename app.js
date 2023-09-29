@@ -119,3 +119,20 @@ tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
+
+const form = document.getElementById("newShop");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+  console.log("hey");
+  const sub = document.getElementById("sub");
+
+  console.log(event.target.location.value);
+  const location = event.target.location.value;
+  const minCust = event.target.minCust.value;
+  const maxCust = event.target.maxCust.value;
+  const average = event.target.average.value;
+  const newShop = new CookieStore(location, minCust, maxCust, average);
+
+  newShop.render();
+});
