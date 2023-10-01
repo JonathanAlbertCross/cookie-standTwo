@@ -115,30 +115,31 @@ legend {
   text-align: center;
   padding: 2rem;
   font-size: 3rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Lora", serif;
   color: #fdd1cc;
 }
 form {
   padding: 10px;
 }
+
 label {
   width: 100%;
   padding: 10px 20px 10px 280px;
   font-size: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Lora", serif;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  color: #3a3939;
+  color: #fdd1cc;
 }
 input {
   width: 500px;
   padding: 10px 20px 10px 0px;
   font-size: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Lora", serif;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-
+  border-color: #fdd1cc;
   border-radius: 5%;
 }
