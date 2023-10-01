@@ -1,23 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Young+Serif&display=swap");
+
 * {
-  margin: auto;
-  padding: auto;
-  width: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
   background-color: #fa8072;
 }
 
+li,
+a,
+button {
+  font-family: "lora", serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fdd1cc;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  text-decoration: none;
+}
+
 .logo {
-  width: 50rem;
-  display: block;
-  margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 10rem;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+  color: #ffffff;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #729afa;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #93b0f5;
+  color: #fdd1cc;
+  transition: all 0.3s ease 0s;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8rem;
   display: flex;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: flex-end;
+  font-family: "Lora", serif;
+  color: #fdd1cc;
+  line-height: 7rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  font-family: "Lora", serif;
   color: #fdd1cc;
 }
 legend {
@@ -50,12 +114,4 @@ input {
   margin-right: auto;
 
   border-radius: 5%;
-}
-
-button {
-  background-color: #729afa;
-}
-
-table tr {
-  background-color: #fdd1cc;
 }
