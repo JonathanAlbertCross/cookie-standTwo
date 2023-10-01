@@ -83,6 +83,7 @@ h1 {
 
 section {
   line-height: 0px;
+  font-weight: 500;
 }
 
 h3 {
@@ -119,7 +120,7 @@ legend {
   color: #fdd1cc;
 }
 form {
-  padding: 10px;
+  padding: 4rem 4rem;
 }
 
 label {
@@ -146,6 +147,8 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
+  background-color: #0e0606;
+  color: #fdd1cc;
 }
 
 thead th:nth-child(1) {
@@ -179,8 +182,4 @@ tbody tr:nth-child(even) {
 
 tbody tr {
   background-image: url(noise.png);
-}
-
-table {
-  background-color: #ff33cc;
 }
