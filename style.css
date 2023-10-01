@@ -123,23 +123,64 @@ form {
 }
 
 label {
-  width: 100%;
-  padding: 10px 20px 10px 280px;
-  font-size: 2rem;
+  width: 500px;
+  padding: 10px 20px;
+  font-size: 1.15rem;
   font-family: "Lora", serif;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+
   color: #fdd1cc;
 }
 input {
   width: 500px;
-  padding: 10px 20px 10px 0px;
-  font-size: 2rem;
+  padding: 10px 20px;
+  font-size: 1.15rem;
   font-family: "Lora", serif;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  color: #fdd1cc;
   border-color: #fdd1cc;
   border-radius: 5%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: #ff33cc;
 }
